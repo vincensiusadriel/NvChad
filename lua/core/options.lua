@@ -18,9 +18,12 @@ opt.title = true
 opt.clipboard = "unnamedplus"
 opt.cul = true -- cursor line
 
+-- Shell
+opt.shell = "/bin/bash" 
+
 -- Indenting
 opt.expandtab = true
-opt.shiftwidth = 3
+opt.shiftwidth = 4
 opt.smartindent = true
 
 opt.fillchars = { eob = " " }
@@ -29,7 +32,7 @@ opt.smartcase = true
 opt.mouse = "a"
 
 -- Numbers
-opt.number = true
+opt.relativenumber = true
 opt.numberwidth = 2
 opt.ruler = false
 
@@ -39,7 +42,7 @@ opt.shortmess:append "sI"
 opt.signcolumn = "yes"
 opt.splitbelow = true
 opt.splitright = true
-opt.tabstop = 8
+opt.tabstop = 4
 opt.termguicolors = true
 opt.timeoutlen = 400
 opt.undofile = true

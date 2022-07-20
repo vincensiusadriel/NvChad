@@ -21,6 +21,11 @@ M.general = {
    },
 
    n = {
+      -- Resize window
+      ["<S-Up>"] = { ":resize -2<CR>", "resize window up"},
+      ["<S-Down>"] = { ":resize +2<CR>", "resize window down"},
+      ["<S-Left>"] = { ":vertical resize -2<CR>", "resize window left"},
+      ["<S-Right>"] = { ":vertical resize +2<CR>", "resize window right"},
 
       ["<ESC>"] = { "<cmd> noh <CR>", "  no highlight" },
 
